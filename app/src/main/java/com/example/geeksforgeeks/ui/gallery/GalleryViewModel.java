@@ -1,4 +1,4 @@
-package com.example.geeksforgeeks.ui.gallery;
+package com.spidy.Future.ui.gallery;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

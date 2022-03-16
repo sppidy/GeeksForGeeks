@@ -1,4 +1,4 @@
-package com.example.geeksforgeeks.ui.home;
+package com.spidy.Future.ui.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

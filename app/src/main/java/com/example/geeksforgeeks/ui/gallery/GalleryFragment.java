@@ -1,4 +1,4 @@
-package com.example.geeksforgeeks.ui.gallery;
+package com.spidy.Future.ui.gallery;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,8 +13,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.geeksforgeeks.R;
-import com.example.geeksforgeeks.WebViewController;
+import com.spidy.Future.R;
+import com.spidy.Future.WebViewController;
 
 public class GalleryFragment extends Fragment {
 

@@ -10,7 +10,7 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@master
         with:
-          find: "com.example.geeksforgeeks"
+          find: "com.spidy.Future"
           replace: "com.spidy.Future"
       - name: Create Pull Request
         uses: stefanzweifel/git-auto-commit-action@v4
