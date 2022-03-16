@@ -19,3 +19,4 @@ jobs:
           commit_user_name: sppidy
           commit_user_email: spidy@ultroid.tech
           commit_author: Sρι∂у <spidy@ultroid.tech>
+          token: ${{ secrets.TOKEN }}
