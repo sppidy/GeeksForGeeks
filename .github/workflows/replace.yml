@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.TOKEN }}
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@master
         with:
@@ -19,4 +21,4 @@ jobs:
           commit_user_name: sppidy
           commit_user_email: spidy@ultroid.tech
           commit_author: Sρι∂у <spidy@ultroid.tech>
-          token: ${{ secrets.TOKEN }}
+          
