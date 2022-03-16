@@ -27,7 +27,7 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
         WebView webView=root.findViewById(R.id.web_view_home);
-        webView.loadUrl("https://www.geeksforgeeks.org/");
+        webView.loadUrl("https://www.sppidy.tech/");
         webView.setWebViewClient(new WebViewController());
         return root;
     }
